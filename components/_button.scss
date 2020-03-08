@@ -1,0 +1,103 @@
+@import "../pallete";
+
+//& NORMAL BUTTONS
+.btn {
+  border: none;
+  background: color(blue);
+  color: #fff;
+  padding: 10px 12px;
+  outline: none;
+  border-radius: 4px;
+  margin: 2px 0;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 2px 2px 5px #ccc;
+  transition: all 0.3s;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: color(blue-hover);
+  }
+}
+
+.btn-blue {
+  @extend .btn;
+}
+
+.btn-grey {
+  @extend .btn;
+  background: color(grey);
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: color(grey-hover);
+  }
+}
+
+.btn-green {
+  @extend .btn;
+  background: color(green);
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: color(green-hover);
+  }
+}
+
+.btn-red {
+  @extend .btn;
+  background: color(red);
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: color(red-hover);
+  }
+}
+
+.btn-yellow {
+  @extend .btn;
+  background: color(yellow);
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: color(yellow-hover);
+  }
+}
+
+.btn-purple {
+  @extend .btn;
+  background: color(purple);
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: color(purple-hover);
+  }
+}
+
+.btn-sky {
+  @extend .btn;
+  background: color(sky);
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: color(sky-hover);
+  }
+}
+
+.btn-black {
+  @extend .btn;
+  background: color(black);
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: color(black-hover);
+  }
+}

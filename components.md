@@ -4,8 +4,8 @@ Pending: 🤜
 To be planned: 🗨
 
 # Buttons
-[⏲] Buttons
-[  ] Button group
+[✅] Buttons
+[✅] Button group
 [  ] Radio button
 [  ] Toggle button
 
@@ -14,7 +14,7 @@ To be planned: 🗨
 [  ] Badge
 [  ] Bredcrumb
 [  ] Card
-[⏲] Jumbotron
+[✅] Jumbotron
 [  ] Pagination
 [  ] Tree
 [  ] Toasts
@@ -29,7 +29,7 @@ To be planned: 🗨
 [  ] Datepicker
 [  ] Tooltips
 [  ] Message
-[⏲] Seperator
+[🤜] Seperator
 
 
 # Sliders
@@ -55,6 +55,7 @@ To be planned: 🗨
 # Utilities
 [  ] Border
 [  ] Colors
+[  ] Container
 [  ] Icons
 [  ] Media object
 [  ] Right click menu

@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+.btn, .btn-blue, .btn-grey, .btn-green, .btn-red, .btn-yellow, .btn-purple, .btn-sky, .btn-black {
+  border: none;
+  background: #0d7be2;
+  color: #fff;
+  padding: 10px 12px;
+  outline: none;
+  border-radius: 4px;
+  margin: 2px 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-box-shadow: 2px 2px 5px #ccc;
+          box-shadow: 2px 2px 5px #ccc;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:hover, .btn-blue:hover, .btn-grey:hover, .btn-green:hover, .btn-red:hover, .btn-yellow:hover, .btn-purple:hover, .btn-sky:hover, .btn-black:hover, .btn:focus, .btn-blue:focus, .btn-grey:focus, .btn-green:focus, .btn-red:focus, .btn-yellow:focus, .btn-purple:focus, .btn-sky:focus, .btn-black:focus, .btn:active, .btn-blue:active, .btn-grey:active, .btn-green:active, .btn-red:active, .btn-yellow:active, .btn-purple:active, .btn-sky:active, .btn-black:active {
+  background: #096ecc;
+}
+
+.btn-grey {
+  background: #727272;
+}
+
+.btn-grey:hover, .btn-grey:focus, .btn-grey:active {
+  background: #555555;
+}
+
+.btn-green {
+  background: #139272;
+}
+
+.btn-green:hover, .btn-green:focus, .btn-green:active {
+  background: #117c61;
+}
+
+.btn-red {
+  background: #ff5650;
+}
+
+.btn-red:hover, .btn-red:focus, .btn-red:active {
+  background: #e43b35;
+}
+
+.btn-yellow {
+  background: #ecb439;
+}
+
+.btn-yellow:hover, .btn-yellow:focus, .btn-yellow:active {
+  background: #cfa01c;
+}
+
+.btn-purple {
+  background: #8742e2;
+}
+
+.btn-purple:hover, .btn-purple:focus, .btn-purple:active {
+  background: #773cc5;
+}
+
+.btn-sky {
+  background: #65a2db;
+}
+
+.btn-sky:hover, .btn-sky:focus, .btn-sky:active {
+  background: #4a89c5;
+}
+
+.btn-black {
+  background: #3b3b3b;
+}
+
+.btn-black:hover, .btn-black:focus, .btn-black:active {
+  background: #1d1d1d;
+}
+
+.mx-1 {
+  margin-left: .4rem;
+  margin-right: .4rem;
+}
+
+.mx-2 {
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.mx-3 {
+  margin-left: .6rem;
+  margin-right: .6rem;
+}
+
+.mx-4 {
+  margin-left: .7rem;
+  margin-right: .7rem;
+}
+
+.mx-5 {
+  margin-left: .8rem;
+  margin-right: .8rem;
+}
+
+.mx-6 {
+  margin-left: .9rem;
+  margin-right: .9rem;
+}
+
+.mx-7 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-8 {
+  margin-left: 1.1rem;
+  margin-right: 1.1rem;
+}
+
+.mx-9 {
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+}
+
+.mx-10 {
+  margin-left: 1.3rem;
+  margin-right: 1.3rem;
+}
+
+.my-1 {
+  margin-top: .4rem;
+  margin-bottom: .4rem;
+}
+
+.my-2 {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.my-3 {
+  margin-top: .6rem;
+  margin-bottom: .6rem;
+}
+
+.my-4 {
+  margin-top: .7rem;
+  margin-bottom: .7rem;
+}
+
+.my-5 {
+  margin-top: .8rem;
+  margin-bottom: .8rem;
+}
+
+.my-6 {
+  margin-top: .9rem;
+  margin-bottom: .9rem;
+}
+
+.my-7 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-8 {
+  margin-top: 1.1rem;
+  margin-bottom: 1.1rem;
+}
+
+.my-9 {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.my-10 {
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+
+.jumbotron {
+  -webkit-box-shadow: 0 3px 10px #ccc;
+          box-shadow: 0 3px 10px #ccc;
+  border-radius: 10px;
+  padding: 2rem 3rem;
+}
+
+.jumbotron .title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.jumbotron .desc {
+  margin-top: 10px;
+  margin-bottom: 1rem;
+}
+
+.jumbotron .body, .jumbotron .body-border {
+  font-size: 1.2rem;
+}
+
+.jumbotron .body-border {
+  border-top: 1px solid #c2c2c2;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #333;
+}
+
+.navbar .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .menu .item {
+  margin: 2px 5px;
+  color: #efefef;
+}
+
+* {
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  margin: 1rem;
+  padding: 0;
+}
+/*# sourceMappingURL=main.css.map */

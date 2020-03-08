@@ -1,0 +1,15 @@
+@import "./components/button";
+@import "./components/typography";
+@import "./components/ui";
+@import "./components/utilities";
+// @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    margin: 1rem;
+    padding: 0;
+}

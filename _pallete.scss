@@ -1,0 +1,25 @@
+$colors: (
+  /* Normals */
+  blue: rgb(13, 123, 226),
+  grey: #727272,
+  green: rgb(19, 146, 114),
+  red: rgb(255, 86, 80),
+  yellow: rgb(236, 180, 57),
+  purple: rgb(135, 66, 226),
+  sky: rgb(101, 162, 219),
+  black: rgb(59, 59, 59),
+  
+  /* Hovers */
+  blue-hover: rgb(9, 110, 204),
+  grey-hover: #555555,
+  green-hover: rgb(17, 124, 97),
+  red-hover: rgb(228, 59, 53),
+  yellow-hover: rgb(207, 160, 28),
+  purple-hover: rgb(119, 60, 197),
+  sky-hover: rgb(74, 137, 197),
+  black-hover: rgb(29, 29, 29),
+);
+
+@function color($_color) {
+  @return map-get($map: $colors, $key: $_color);
+}

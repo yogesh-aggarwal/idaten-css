@@ -1,0 +1,44 @@
+@import "../pallete";
+
+.jumbotron {
+  box-shadow: 0 3px 10px #ccc;
+  border-radius: 10px;
+  padding: 2rem 3rem;
+
+  .title {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .desc {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+  }
+  .body {
+    font-size: 1.2rem;
+  }
+  .body-border {
+    @extend .body;
+    border-top: 1px solid #c2c2c2;
+    // padding-top: 1rem;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background: #333;
+
+  .menu {
+    display: flex;
+
+    .item {
+      margin: 2px 5px;
+      color: #efefef;
+    //   font-weight: bold;
+
+      &:hover {
+
+      }
+    }
+  }
+}
