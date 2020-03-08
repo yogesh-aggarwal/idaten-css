@@ -15,7 +15,7 @@ To be planned: 🗨
 [  ] Bredcrumb
 [✅] Card
 [✅] Jumbotron
-[⏲] Pagination
+[✅] Pagination
 [⏲] Dropdowns
 [  ] Tree
 [  ] Toasts

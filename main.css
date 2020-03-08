@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
-.btn, .btn-blue, .btn-grey, .btn-green, .btn-teal, .btn-red, .btn-yellow, .btn-purple, .btn-sky, .btn-black {
+.btn, .btn-blue, .btn-grey, .btn-green, .btn-teal, .btn-red, .btn-yellow, .btn-purple, .btn-sky, .btn-black, .pagination .previous, .pagination-ends .previous, .pagination-start .previous, .pagination-end .previous, .pagination .previous-disabled, .pagination-ends .previous-disabled, .pagination-start .previous-disabled, .pagination-end .previous-disabled,
+.pagination .next-disabled,
+.pagination-ends .next-disabled,
+.pagination-start .next-disabled,
+.pagination-end .next-disabled,
+.pagination .next,
+.pagination-ends .next,
+.pagination-start .next,
+.pagination-end .next,
+.pagination-center .previous,
+.pagination-center .previous-disabled,
+.pagination-center .next-disabled,
+.pagination-center .next {
   border: none;
   background: #0d7be2;
   color: #fff;
@@ -18,7 +30,43 @@
   transition: all 0.3s;
 }
 
-.btn:hover, .btn-blue:hover, .btn-grey:hover, .btn-green:hover, .btn-teal:hover, .btn-red:hover, .btn-yellow:hover, .btn-purple:hover, .btn-sky:hover, .btn-black:hover, .btn:focus, .btn-blue:focus, .btn-grey:focus, .btn-green:focus, .btn-teal:focus, .btn-red:focus, .btn-yellow:focus, .btn-purple:focus, .btn-sky:focus, .btn-black:focus, .btn:active, .btn-blue:active, .btn-grey:active, .btn-green:active, .btn-teal:active, .btn-red:active, .btn-yellow:active, .btn-purple:active, .btn-sky:active, .btn-black:active {
+.btn:hover, .btn-blue:hover, .btn-grey:hover, .btn-green:hover, .btn-teal:hover, .btn-red:hover, .btn-yellow:hover, .btn-purple:hover, .btn-sky:hover, .btn-black:hover, .pagination .previous:hover, .pagination-ends .previous:hover, .pagination-start .previous:hover, .pagination-end .previous:hover, .pagination .previous-disabled:hover, .pagination-ends .previous-disabled:hover, .pagination-start .previous-disabled:hover, .pagination-end .previous-disabled:hover,
+.pagination .next-disabled:hover,
+.pagination-ends .next-disabled:hover,
+.pagination-start .next-disabled:hover,
+.pagination-end .next-disabled:hover,
+.pagination .next:hover,
+.pagination-ends .next:hover,
+.pagination-start .next:hover,
+.pagination-end .next:hover,
+.pagination-center .previous:hover,
+.pagination-center .previous-disabled:hover,
+.pagination-center .next-disabled:hover,
+.pagination-center .next:hover, .btn:focus, .btn-blue:focus, .btn-grey:focus, .btn-green:focus, .btn-teal:focus, .btn-red:focus, .btn-yellow:focus, .btn-purple:focus, .btn-sky:focus, .btn-black:focus, .pagination .previous:focus, .pagination-ends .previous:focus, .pagination-start .previous:focus, .pagination-end .previous:focus, .pagination .previous-disabled:focus, .pagination-ends .previous-disabled:focus, .pagination-start .previous-disabled:focus, .pagination-end .previous-disabled:focus,
+.pagination .next-disabled:focus,
+.pagination-ends .next-disabled:focus,
+.pagination-start .next-disabled:focus,
+.pagination-end .next-disabled:focus,
+.pagination .next:focus,
+.pagination-ends .next:focus,
+.pagination-start .next:focus,
+.pagination-end .next:focus,
+.pagination-center .previous:focus,
+.pagination-center .previous-disabled:focus,
+.pagination-center .next-disabled:focus,
+.pagination-center .next:focus, .btn:active, .btn-blue:active, .btn-grey:active, .btn-green:active, .btn-teal:active, .btn-red:active, .btn-yellow:active, .btn-purple:active, .btn-sky:active, .btn-black:active, .pagination .previous:active, .pagination-ends .previous:active, .pagination-start .previous:active, .pagination-end .previous:active, .pagination .previous-disabled:active, .pagination-ends .previous-disabled:active, .pagination-start .previous-disabled:active, .pagination-end .previous-disabled:active,
+.pagination .next-disabled:active,
+.pagination-ends .next-disabled:active,
+.pagination-start .next-disabled:active,
+.pagination-end .next-disabled:active,
+.pagination .next:active,
+.pagination-ends .next:active,
+.pagination-start .next:active,
+.pagination-end .next:active,
+.pagination-center .previous:active,
+.pagination-center .previous-disabled:active,
+.pagination-center .next-disabled:active,
+.pagination-center .next:active {
   background: #096ecc;
 }
 
@@ -78,11 +126,59 @@
   background: #4a89c5;
 }
 
-.btn-black {
+.btn-black, .pagination .previous, .pagination-ends .previous, .pagination-start .previous, .pagination-end .previous, .pagination .previous-disabled, .pagination-ends .previous-disabled, .pagination-start .previous-disabled, .pagination-end .previous-disabled,
+.pagination .next-disabled,
+.pagination-ends .next-disabled,
+.pagination-start .next-disabled,
+.pagination-end .next-disabled,
+.pagination .next,
+.pagination-ends .next,
+.pagination-start .next,
+.pagination-end .next,
+.pagination-center .previous,
+.pagination-center .previous-disabled,
+.pagination-center .next-disabled,
+.pagination-center .next {
   background: #3b3b3b;
 }
 
-.btn-black:hover, .btn-black:focus, .btn-black:active {
+.btn-black:hover, .pagination .previous:hover, .pagination-ends .previous:hover, .pagination-start .previous:hover, .pagination-end .previous:hover, .pagination .previous-disabled:hover, .pagination-ends .previous-disabled:hover, .pagination-start .previous-disabled:hover, .pagination-end .previous-disabled:hover,
+.pagination .next-disabled:hover,
+.pagination-ends .next-disabled:hover,
+.pagination-start .next-disabled:hover,
+.pagination-end .next-disabled:hover,
+.pagination .next:hover,
+.pagination-ends .next:hover,
+.pagination-start .next:hover,
+.pagination-end .next:hover,
+.pagination-center .previous:hover,
+.pagination-center .previous-disabled:hover,
+.pagination-center .next-disabled:hover,
+.pagination-center .next:hover, .btn-black:focus, .pagination .previous:focus, .pagination-ends .previous:focus, .pagination-start .previous:focus, .pagination-end .previous:focus, .pagination .previous-disabled:focus, .pagination-ends .previous-disabled:focus, .pagination-start .previous-disabled:focus, .pagination-end .previous-disabled:focus,
+.pagination .next-disabled:focus,
+.pagination-ends .next-disabled:focus,
+.pagination-start .next-disabled:focus,
+.pagination-end .next-disabled:focus,
+.pagination .next:focus,
+.pagination-ends .next:focus,
+.pagination-start .next:focus,
+.pagination-end .next:focus,
+.pagination-center .previous:focus,
+.pagination-center .previous-disabled:focus,
+.pagination-center .next-disabled:focus,
+.pagination-center .next:focus, .btn-black:active, .pagination .previous:active, .pagination-ends .previous:active, .pagination-start .previous:active, .pagination-end .previous:active, .pagination .previous-disabled:active, .pagination-ends .previous-disabled:active, .pagination-start .previous-disabled:active, .pagination-end .previous-disabled:active,
+.pagination .next-disabled:active,
+.pagination-ends .next-disabled:active,
+.pagination-start .next-disabled:active,
+.pagination-end .next-disabled:active,
+.pagination .next:active,
+.pagination-ends .next:active,
+.pagination-start .next:active,
+.pagination-end .next:active,
+.pagination-center .previous:active,
+.pagination-center .previous-disabled:active,
+.pagination-center .next-disabled:active,
+.pagination-center .next:active {
   background: #1d1d1d;
 }
 
@@ -660,14 +756,14 @@
           user-select: none;
 }
 
-.navbar .menu, .navbar-sticky .menu, .navbar .menu-center, .navbar-sticky .menu-center {
+.navbar .menu, .navbar-sticky .menu, .navbar .menu-center, .navbar-sticky .menu-center, .navbar .menu-end, .navbar-sticky .menu-end {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
 }
 
-.navbar .menu .item, .navbar-sticky .menu .item, .navbar .menu-center .item, .navbar-sticky .menu-center .item {
+.navbar .menu .item, .navbar-sticky .menu .item, .navbar .menu-center .item, .navbar-sticky .menu-center .item, .navbar .menu-end .item, .navbar-sticky .menu-end .item {
   margin: 2px 5px;
   color: #efefef;
   margin: 0 15px;
@@ -676,7 +772,7 @@
   transition: all 0.1s;
 }
 
-.navbar .menu .item:hover, .navbar-sticky .menu .item:hover, .navbar .menu-center .item:hover, .navbar-sticky .menu-center .item:hover {
+.navbar .menu .item:hover, .navbar-sticky .menu .item:hover, .navbar .menu-center .item:hover, .navbar-sticky .menu-center .item:hover, .navbar .menu-end .item:hover, .navbar-sticky .menu-end .item:hover {
   color: #ccc;
 }
 
@@ -684,6 +780,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.navbar .menu-end, .navbar-sticky .menu-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .navbar .right, .navbar-sticky .right {
@@ -764,8 +866,8 @@
 }
 
 .ns {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 .usn, .udsn {
@@ -785,6 +887,189 @@
 
 .np, .nmp {
   padding: 0 !important;
+}
+
+.btn, .btn-blue, .btn-grey, .btn-green, .btn-teal, .btn-red, .btn-yellow, .btn-purple, .btn-sky, .btn-black, .pagination .previous, .pagination-ends .previous, .pagination-start .previous, .pagination-end .previous, .pagination .previous-disabled, .pagination-ends .previous-disabled, .pagination-start .previous-disabled, .pagination-end .previous-disabled,
+.pagination .next-disabled,
+.pagination-ends .next-disabled,
+.pagination-start .next-disabled,
+.pagination-end .next-disabled,
+.pagination .next,
+.pagination-ends .next,
+.pagination-start .next,
+.pagination-end .next,
+.pagination-center .previous,
+.pagination-center .previous-disabled,
+.pagination-center .next-disabled,
+.pagination-center .next {
+  border: none;
+  background: #0d7be2;
+  color: #fff;
+  padding: 10px 12px;
+  outline: none;
+  border-radius: 4px;
+  margin: 2px 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-box-shadow: 2px 2px 5px #ccc;
+          box-shadow: 2px 2px 5px #ccc;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:hover, .btn-blue:hover, .btn-grey:hover, .btn-green:hover, .btn-teal:hover, .btn-red:hover, .btn-yellow:hover, .btn-purple:hover, .btn-sky:hover, .btn-black:hover, .pagination .previous:hover, .pagination-ends .previous:hover, .pagination-start .previous:hover, .pagination-end .previous:hover, .pagination .previous-disabled:hover, .pagination-ends .previous-disabled:hover, .pagination-start .previous-disabled:hover, .pagination-end .previous-disabled:hover,
+.pagination .next-disabled:hover,
+.pagination-ends .next-disabled:hover,
+.pagination-start .next-disabled:hover,
+.pagination-end .next-disabled:hover,
+.pagination .next:hover,
+.pagination-ends .next:hover,
+.pagination-start .next:hover,
+.pagination-end .next:hover,
+.pagination-center .previous:hover,
+.pagination-center .previous-disabled:hover,
+.pagination-center .next-disabled:hover,
+.pagination-center .next:hover, .btn:focus, .btn-blue:focus, .btn-grey:focus, .btn-green:focus, .btn-teal:focus, .btn-red:focus, .btn-yellow:focus, .btn-purple:focus, .btn-sky:focus, .btn-black:focus, .pagination .previous:focus, .pagination-ends .previous:focus, .pagination-start .previous:focus, .pagination-end .previous:focus, .pagination .previous-disabled:focus, .pagination-ends .previous-disabled:focus, .pagination-start .previous-disabled:focus, .pagination-end .previous-disabled:focus,
+.pagination .next-disabled:focus,
+.pagination-ends .next-disabled:focus,
+.pagination-start .next-disabled:focus,
+.pagination-end .next-disabled:focus,
+.pagination .next:focus,
+.pagination-ends .next:focus,
+.pagination-start .next:focus,
+.pagination-end .next:focus,
+.pagination-center .previous:focus,
+.pagination-center .previous-disabled:focus,
+.pagination-center .next-disabled:focus,
+.pagination-center .next:focus, .btn:active, .btn-blue:active, .btn-grey:active, .btn-green:active, .btn-teal:active, .btn-red:active, .btn-yellow:active, .btn-purple:active, .btn-sky:active, .btn-black:active, .pagination .previous:active, .pagination-ends .previous:active, .pagination-start .previous:active, .pagination-end .previous:active, .pagination .previous-disabled:active, .pagination-ends .previous-disabled:active, .pagination-start .previous-disabled:active, .pagination-end .previous-disabled:active,
+.pagination .next-disabled:active,
+.pagination-ends .next-disabled:active,
+.pagination-start .next-disabled:active,
+.pagination-end .next-disabled:active,
+.pagination .next:active,
+.pagination-ends .next:active,
+.pagination-start .next:active,
+.pagination-end .next:active,
+.pagination-center .previous:active,
+.pagination-center .previous-disabled:active,
+.pagination-center .next-disabled:active,
+.pagination-center .next:active {
+  background: #096ecc;
+}
+
+.btn-grey {
+  background: #727272;
+}
+
+.btn-grey:hover, .btn-grey:focus, .btn-grey:active {
+  background: #555555;
+}
+
+.btn-green {
+  background: #139272;
+}
+
+.btn-green:hover, .btn-green:focus, .btn-green:active {
+  background: #117c61;
+}
+
+.btn-teal {
+  background: #0097a7;
+}
+
+.btn-teal:hover, .btn-teal:focus, .btn-teal:active {
+  background: #008492;
+}
+
+.btn-red {
+  background: #f44336;
+}
+
+.btn-red:hover, .btn-red:focus, .btn-red:active {
+  background: #e63529;
+}
+
+.btn-yellow {
+  background: #ecb439;
+}
+
+.btn-yellow:hover, .btn-yellow:focus, .btn-yellow:active {
+  background: #cfa01c;
+}
+
+.btn-purple {
+  background: #8742e2;
+}
+
+.btn-purple:hover, .btn-purple:focus, .btn-purple:active {
+  background: #773cc5;
+}
+
+.btn-sky {
+  background: #65a2db;
+}
+
+.btn-sky:hover, .btn-sky:focus, .btn-sky:active {
+  background: #4a89c5;
+}
+
+.btn-black, .pagination .previous, .pagination-ends .previous, .pagination-start .previous, .pagination-end .previous, .pagination .previous-disabled, .pagination-ends .previous-disabled, .pagination-start .previous-disabled, .pagination-end .previous-disabled,
+.pagination .next-disabled,
+.pagination-ends .next-disabled,
+.pagination-start .next-disabled,
+.pagination-end .next-disabled,
+.pagination .next,
+.pagination-ends .next,
+.pagination-start .next,
+.pagination-end .next,
+.pagination-center .previous,
+.pagination-center .previous-disabled,
+.pagination-center .next-disabled,
+.pagination-center .next {
+  background: #3b3b3b;
+}
+
+.btn-black:hover, .pagination .previous:hover, .pagination-ends .previous:hover, .pagination-start .previous:hover, .pagination-end .previous:hover, .pagination .previous-disabled:hover, .pagination-ends .previous-disabled:hover, .pagination-start .previous-disabled:hover, .pagination-end .previous-disabled:hover,
+.pagination .next-disabled:hover,
+.pagination-ends .next-disabled:hover,
+.pagination-start .next-disabled:hover,
+.pagination-end .next-disabled:hover,
+.pagination .next:hover,
+.pagination-ends .next:hover,
+.pagination-start .next:hover,
+.pagination-end .next:hover,
+.pagination-center .previous:hover,
+.pagination-center .previous-disabled:hover,
+.pagination-center .next-disabled:hover,
+.pagination-center .next:hover, .btn-black:focus, .pagination .previous:focus, .pagination-ends .previous:focus, .pagination-start .previous:focus, .pagination-end .previous:focus, .pagination .previous-disabled:focus, .pagination-ends .previous-disabled:focus, .pagination-start .previous-disabled:focus, .pagination-end .previous-disabled:focus,
+.pagination .next-disabled:focus,
+.pagination-ends .next-disabled:focus,
+.pagination-start .next-disabled:focus,
+.pagination-end .next-disabled:focus,
+.pagination .next:focus,
+.pagination-ends .next:focus,
+.pagination-start .next:focus,
+.pagination-end .next:focus,
+.pagination-center .previous:focus,
+.pagination-center .previous-disabled:focus,
+.pagination-center .next-disabled:focus,
+.pagination-center .next:focus, .btn-black:active, .pagination .previous:active, .pagination-ends .previous:active, .pagination-start .previous:active, .pagination-end .previous:active, .pagination .previous-disabled:active, .pagination-ends .previous-disabled:active, .pagination-start .previous-disabled:active, .pagination-end .previous-disabled:active,
+.pagination .next-disabled:active,
+.pagination-ends .next-disabled:active,
+.pagination-start .next-disabled:active,
+.pagination-end .next-disabled:active,
+.pagination .next:active,
+.pagination-ends .next:active,
+.pagination-start .next:active,
+.pagination-end .next:active,
+.pagination-center .previous:active,
+.pagination-center .previous-disabled:active,
+.pagination-center .next-disabled:active,
+.pagination-center .next:active {
+  background: #1d1d1d;
 }
 
 .card,
@@ -887,6 +1172,173 @@
 
 .card-x .body .content .text, .card-x .jumbotron .body-border .content .text, .jumbotron .card-x .body-border .content .text {
   margin-top: 10px;
+}
+
+.pagination, .pagination-ends, .pagination-start, .pagination-end,
+.pagination-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+}
+
+.pagination .previous, .pagination-ends .previous, .pagination-start .previous, .pagination-end .previous, .pagination .previous-disabled, .pagination-ends .previous-disabled, .pagination-start .previous-disabled, .pagination-end .previous-disabled,
+.pagination .next-disabled,
+.pagination-ends .next-disabled,
+.pagination-start .next-disabled,
+.pagination-end .next-disabled,
+.pagination .next,
+.pagination-ends .next,
+.pagination-start .next,
+.pagination-end .next,
+.pagination-center .previous,
+.pagination-center .previous-disabled,
+.pagination-center .next-disabled,
+.pagination-center .next {
+  border-radius: 100%;
+  padding: 10px 15px;
+  margin: 0 4px;
+  background: #fff;
+  color: black;
+}
+
+.pagination .previous:hover, .pagination-ends .previous:hover, .pagination-start .previous:hover, .pagination-end .previous:hover, .pagination .previous-disabled:hover, .pagination-ends .previous-disabled:hover, .pagination-start .previous-disabled:hover, .pagination-end .previous-disabled:hover,
+.pagination .next-disabled:hover,
+.pagination-ends .next-disabled:hover,
+.pagination-start .next-disabled:hover,
+.pagination-end .next-disabled:hover, .pagination .previous:focus, .pagination-ends .previous:focus, .pagination-start .previous:focus, .pagination-end .previous:focus, .pagination .previous-disabled:focus, .pagination-ends .previous-disabled:focus, .pagination-start .previous-disabled:focus, .pagination-end .previous-disabled:focus,
+.pagination .next-disabled:focus,
+.pagination-ends .next-disabled:focus,
+.pagination-start .next-disabled:focus,
+.pagination-end .next-disabled:focus, .pagination .previous:active, .pagination-ends .previous:active, .pagination-start .previous:active, .pagination-end .previous:active, .pagination .previous-disabled:active, .pagination-ends .previous-disabled:active, .pagination-start .previous-disabled:active, .pagination-end .previous-disabled:active,
+.pagination .next-disabled:active,
+.pagination-ends .next-disabled:active,
+.pagination-start .next-disabled:active,
+.pagination-end .next-disabled:active,
+.pagination .next:hover,
+.pagination-ends .next:hover,
+.pagination-start .next:hover,
+.pagination-end .next:hover,
+.pagination .next:focus,
+.pagination-ends .next:focus,
+.pagination-start .next:focus,
+.pagination-end .next:focus,
+.pagination .next:active,
+.pagination-ends .next:active,
+.pagination-start .next:active,
+.pagination-end .next:active,
+.pagination-center .previous:hover,
+.pagination-center .previous-disabled:hover,
+.pagination-center .next-disabled:hover,
+.pagination-center .previous:focus,
+.pagination-center .previous-disabled:focus,
+.pagination-center .next-disabled:focus,
+.pagination-center .previous:active,
+.pagination-center .previous-disabled:active,
+.pagination-center .next-disabled:active,
+.pagination-center .next:hover,
+.pagination-center .next:focus,
+.pagination-center .next:active {
+  background: #fff;
+  color: black;
+  -webkit-box-shadow: 2px 2px 6px #ccc;
+          box-shadow: 2px 2px 6px #ccc;
+}
+
+.pagination .previous::before, .pagination-ends .previous::before, .pagination-start .previous::before, .pagination-end .previous::before, .pagination .previous-disabled::before, .pagination-ends .previous-disabled::before, .pagination-start .previous-disabled::before, .pagination-end .previous-disabled::before,
+.pagination .next-disabled::before,
+.pagination-ends .next-disabled::before,
+.pagination-start .next-disabled::before,
+.pagination-end .next-disabled::before,
+.pagination-center .previous::before,
+.pagination-center .previous-disabled::before,
+.pagination-center .next-disabled::before {
+  content: "<";
+}
+
+.pagination .next::before, .pagination-ends .next::before, .pagination-start .next::before, .pagination-end .next::before,
+.pagination-center .next::before {
+  content: ">";
+}
+
+.pagination .previous-disabled, .pagination-ends .previous-disabled, .pagination-start .previous-disabled, .pagination-end .previous-disabled,
+.pagination .next-disabled,
+.pagination-ends .next-disabled,
+.pagination-start .next-disabled,
+.pagination-end .next-disabled,
+.pagination-center .previous-disabled,
+.pagination-center .next-disabled {
+  background: #eee;
+}
+
+.pagination .previous-disabled:hover, .pagination-ends .previous-disabled:hover, .pagination-start .previous-disabled:hover, .pagination-end .previous-disabled:hover,
+.pagination .next-disabled:hover,
+.pagination-ends .next-disabled:hover,
+.pagination-start .next-disabled:hover,
+.pagination-end .next-disabled:hover,
+.pagination-center .previous-disabled:hover,
+.pagination-center .next-disabled:hover {
+  background: #eee;
+}
+
+.pagination .pages, .pagination-ends .pages, .pagination-start .pages, .pagination-end .pages,
+.pagination-center .pages {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 1px 2px 6px #ccc;
+          box-shadow: 1px 2px 6px #ccc;
+  border-radius: 25px;
+  margin: 0 0.7rem;
+  padding: 10px 1rem;
+}
+
+.pagination .pages .page, .pagination-ends .pages .page, .pagination-start .pages .page, .pagination-end .pages .page, .pagination .pages .page-active, .pagination-ends .pages .page-active, .pagination-start .pages .page-active, .pagination-end .pages .page-active, .pagination .pages .page-disabled, .pagination-ends .pages .page-disabled, .pagination-start .pages .page-disabled, .pagination-end .pages .page-disabled,
+.pagination-center .pages .page,
+.pagination-center .pages .page-active,
+.pagination-center .pages .page-disabled {
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.pagination .pages .page-active, .pagination-ends .pages .page-active, .pagination-start .pages .page-active, .pagination-end .pages .page-active,
+.pagination-center .pages .page-active {
+  color: #0d7be2;
+  font-weight: 600;
+  cursor: default;
+}
+
+.pagination .pages .page-disabled, .pagination-ends .pages .page-disabled, .pagination-start .pages .page-disabled, .pagination-end .pages .page-disabled,
+.pagination-center .pages .page-disabled {
+  color: #8a8a8a;
+  cursor: default;
+}
+
+.pagination-ends {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pagination-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.pagination-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 * {

@@ -66,6 +66,11 @@
     justify-content: center;
   }
 
+  .menu-end {
+    @extend .menu;
+    justify-content: flex-end;
+  }
+
   .right {
     position: absolute;
     height: 100%;
