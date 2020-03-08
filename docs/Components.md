@@ -22,7 +22,7 @@ To be planned: 🗨
 # UI
 [  ] Tabs
 [  ] Navs
-[🤜] Navbar
+[🗨] Navbar
 [  ] Chips
 [  ] Sidebar
 [  ] Dividers

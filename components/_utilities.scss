@@ -1,18 +1,22 @@
 .container {
-    margin: 2% 2%;
+  margin: 2% 2%;
 }
 
 .container-flex {
-    @extend .container;
-    display: flex;
-    flex-direction: column;
+  @extend .container;
+  display: flex;
+  flex-direction: column;
 }
 
 .container-flex-center {
-    @extend .container-flex;
-    align-items: center;
+  @extend .container-flex;
+  align-items: center;
 }
 
 .ns {
-    box-shadow: none;
+  box-shadow: none;
+}
+
+.usn {
+  user-select: none;
 }
