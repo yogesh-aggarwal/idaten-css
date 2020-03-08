@@ -1,24 +1,34 @@
 .flex-x, .flex-x-start {
-  display: flex;
-  justify-content: start;
-  width: 100%;
+  display: flex !important;
+  justify-content: start !important;
+  width: 100% !important;
 }
 
 .flex-y, .flex-y-start {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  width: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: start !important;
+  width: 100% !important;
 }
 
 .flex-x-end {
   @extend .flex-x;
-  justify-content: flex-end;
+  justify-content: flex-end !important;
 }
 
 .flex-y-end {
   @extend .flex-y;
-  justify-content: flex-end;
+  justify-content: flex-end !important;
+}
+
+.flex-x-center {
+  @extend .flex-x;
+  justify-content: center !important;
+}
+
+.flex-y-center {
+  @extend .flex-y;
+  justify-content: center !important;
 }
 
 .container {
@@ -31,7 +41,7 @@
 
 .container-flex-center {
   @extend .container-flex;
-  align-items: center;
+  align-items: center !important;
 }
 
 .ns {
