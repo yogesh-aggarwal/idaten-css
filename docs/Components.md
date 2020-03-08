@@ -13,9 +13,10 @@ To be planned: 🗨
 [  ] Alerts
 [  ] Badge
 [  ] Bredcrumb
-[  ] Card
+[✅] Card
 [✅] Jumbotron
-[  ] Pagination
+[⏲] Pagination
+[⏲] Dropdowns
 [  ] Tree
 [  ] Toasts
 
@@ -23,7 +24,7 @@ To be planned: 🗨
 [  ] Tabs
 [  ] Navs
 [🗨] Navbar
-[  ] Chips
+[⏲] Chips
 [  ] Sidebar
 [  ] Dividers
 [  ] Datepicker
@@ -35,7 +36,6 @@ To be planned: 🗨
 # Sliders
 [  ] Carousel
 [  ] Collapse
-[  ] Dropdowns
 
 # Forms
 [  ] Forms
@@ -54,8 +54,8 @@ To be planned: 🗨
 
 # Utilities
 [  ] Border
-[  ] Colors
-[  ] Container
+[✅] Colors
+[✅] Container
 [  ] Icons
 [  ] Media object
 [  ] Right click menu

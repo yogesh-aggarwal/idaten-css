@@ -1,11 +1,32 @@
+.flex-x, .flex-x-start {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+
+.flex-y, .flex-y-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+}
+
+.flex-x-end {
+  @extend .flex-x;
+  justify-content: flex-end;
+}
+
+.flex-y-end {
+  @extend .flex-y;
+  justify-content: flex-end;
+}
+
 .container {
   margin: 2% 2%;
 }
 
 .container-flex {
-  @extend .container;
-  display: flex;
-  flex-direction: column;
+  @extend .container, .flex-y;
 }
 
 .container-flex-center {
@@ -19,4 +40,24 @@
 
 .usn {
   user-select: none;
+}
+
+.udn {
+  -webkit-user-drag: none;
+}
+
+.udsn {
+  @extend .usn, .udn;
+}
+
+.nm {
+  margin: 0 !important;
+}
+
+.np {
+  padding: 0 !important;
+}
+
+.nmp {
+  @extend .nm, .np;
 }

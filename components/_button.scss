@@ -47,6 +47,17 @@
   }
 }
 
+.btn-teal {
+  @extend .btn;
+  background: color(teal);
+
+  &:hover,
+  &:focus,
+  &:active {
+    background: color(teal-hover);
+  }
+}
+
 .btn-red {
   @extend .btn;
   background: color(red);
