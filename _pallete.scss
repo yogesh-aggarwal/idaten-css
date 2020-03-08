@@ -25,3 +25,5 @@ $colors: (
 @function color($_color) {
   @return map-get($map: $colors, $key: $_color);
 }
+
+$name: #d62893;

@@ -10,8 +10,8 @@ To be planned: 🗨
 [  ] Toggle button
 
 # Elements
-[  ] Alerts
-[  ] Badge
+[⏲] Alerts
+[⏲] Badge
 [  ] Bredcrumb
 [✅] Card
 [✅] Jumbotron
@@ -21,10 +21,10 @@ To be planned: 🗨
 [  ] Toasts
 
 # UI
-[  ] Tabs
+[⏲] Tabs
 [  ] Navs
 [🗨] Navbar
-[⏲] Chips
+[✅] Chips
 [  ] Sidebar
 [  ] Dividers
 [  ] Datepicker
@@ -38,8 +38,8 @@ To be planned: 🗨
 [  ] Collapse
 
 # Forms
-[  ] Forms
-[  ] Input group
+[⏲] Forms
+[⏲] Input group
 
 # Moving components
 [  ] Modal
@@ -48,7 +48,7 @@ To be planned: 🗨
 [  ] Popovers
 [  ] Progress
 [  ] Spinners
-[  ] Scrollbars
+[⏲] Scrollbars
 [  ] Scrollspy
 [  ] Tables
 

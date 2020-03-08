@@ -1276,6 +1276,52 @@
   color: #fff;
 }
 
+.chip {
+  display: inline-block;
+  background: #eee;
+  position: relative;
+  border-radius: 25px;
+  padding: 7px 6px;
+  margin: 0 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+}
+
+.chip .thumb {
+  width: 24px;
+  height: 24px;
+  top: 6px;
+  border-radius: 100%;
+  position: absolute;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-user-drag: none;
+}
+
+.chip .thumb img {
+  border-radius: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-user-drag: none;
+}
+
+.chip .text {
+  margin-left: 2rem;
+  margin-right: 8px;
+}
+
+.chip:hover, .chip:active, .chip:focus {
+  background: #e2e2e2;
+}
+
 * {
   font-family: 'Rubik', sans-serif;
 }

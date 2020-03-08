@@ -206,3 +206,43 @@
     }
   }
 }
+
+//& Chips
+.chip {
+  display: inline-block;
+  background: #eee;
+  position: relative;
+  border-radius: 25px;
+  padding: 7px 6px;
+  margin: 0 5px;
+  transition: all 0.3s;
+  user-select: none;
+  cursor: pointer;
+
+  .thumb {
+    width: 24px;
+    height: 24px;
+    top: 6px;
+    border-radius: 100%;
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+
+    img {
+      border-radius: 100%;
+      width: 100%;
+      object-fit: cover;
+      -webkit-user-drag: none;
+    }
+  }
+  .text {
+    margin-left: 2rem;
+    margin-right: 8px;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    background: rgb(226, 226, 226);
+  }
+}
