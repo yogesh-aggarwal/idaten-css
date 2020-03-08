@@ -1,5 +1,6 @@
 @import "../pallete";
 
+/* JUMBOTRON */
 .jumbotron {
   box-shadow: 0 3px 10px #ccc;
   border-radius: 10px;
@@ -23,6 +24,7 @@
   }
 }
 
+/* NAVBAR */
 .navbar {
   display: flex;
   justify-content: center;
@@ -84,4 +86,10 @@
   position: sticky;
   top: 0;
   width: 100%;
+}
+
+/* SEPERATOR */
+.seperator {
+  margin: 1rem 0;
+  border-top: 1px solid #ccc;
 }

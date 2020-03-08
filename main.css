@@ -278,6 +278,7 @@
   padding-bottom: 1.3rem;
 }
 
+/* JUMBOTRON */
 .jumbotron {
   -webkit-box-shadow: 0 3px 10px #ccc;
           box-shadow: 0 3px 10px #ccc;
@@ -303,6 +304,7 @@
   border-top: 1px solid #c2c2c2;
 }
 
+/* NAVBAR */
 .navbar, .navbar-sticky {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -379,6 +381,12 @@
   position: sticky;
   top: 0;
   width: 100%;
+}
+
+/* SEPERATOR */
+.seperator {
+  margin: 1rem 0;
+  border-top: 1px solid #ccc;
 }
 
 .container, .container-flex, .container-flex-center {

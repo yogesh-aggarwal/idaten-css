@@ -29,7 +29,7 @@ To be planned: 🗨
 [  ] Datepicker
 [  ] Tooltips
 [  ] Message
-[🤜] Seperator
+[✅] Seperator
 
 
 # Sliders
