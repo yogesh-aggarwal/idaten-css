@@ -21,9 +21,37 @@ $colors: (
   sky-hover: rgb(74, 137, 197),
   black-hover: rgb(29, 29, 29),
 );
-
+  
 @function color($_color) {
   @return map-get($map: $colors, $key: $_color);
 }
 
-$name: #d62893;
+$alertColors: (
+  /* Normals */
+  blue: #0d7be240,
+  grey: #72727240,
+  green: #13927240,
+  teal: #0097a740,
+  red: #f4433640,
+  yellow: #ecb43940,
+  purple: #8742e240,
+  sky: #65a2db40,
+  black: #3b3b3b40,
+  
+  /* Hovers */
+  blue-text: rgb(9, 110, 204),
+  grey-text: #555555,
+  green-text: rgb(17, 124, 97),
+  teal-text: #008492,
+  red-text: #e63529,
+  yellow-text: #bb8a00,
+  purple-text: rgb(119, 60, 197),
+  sky-text: rgb(74, 137, 197),
+  black-text: rgb(29, 29, 29),
+);
+
+@function alertColor($_color) {
+  @return map-get($map: $alertColors, $key: $_color);
+}
+  
+

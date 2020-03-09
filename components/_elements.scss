@@ -246,3 +246,61 @@
     background: rgb(226, 226, 226);
   }
 }
+
+//& Alerts
+.alert, .alert-blue {
+  display: flex;
+  margin: 1rem 0;
+  padding: 14px 1.3rem;
+  border-radius: 5px;
+  background: alertColor(blue);
+  color: alertColor(blue-text);
+}
+
+.alert-grey {
+  @extend .alert;
+  background: alertColor(grey);
+  color: alertColor(grey-text);
+}
+
+.alert-green {
+  @extend .alert;
+  background: alertColor(green);
+  color: alertColor(green-text);
+}
+
+.alert-teal {
+  @extend .alert;
+  background: alertColor(teal);
+  color: alertColor(teal-text);
+}
+
+.alert-red {
+  @extend .alert;
+  background: alertColor(red);
+  color: alertColor(red-text);
+}
+
+.alert-yellow {
+  @extend .alert;
+  background: alertColor(yellow);
+  color: alertColor(yellow-text);
+}
+
+.alert-purple {
+  @extend .alert;
+  background: alertColor(purple);
+  color: alertColor(purple-text);
+}
+
+.alert-sky {
+  @extend .alert;
+  background: alertColor(sky);
+  color: alertColor(sky-text);
+}
+
+.alert-black {
+  @extend .alert;
+  background: alertColor(black);
+  color: alertColor(black-text);
+}

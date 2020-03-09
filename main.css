@@ -1322,6 +1322,57 @@
   background: #e2e2e2;
 }
 
+.alert, .alert-grey, .alert-green, .alert-teal, .alert-red, .alert-yellow, .alert-purple, .alert-sky, .alert-black, .alert-blue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem 0;
+  padding: 14px 1.3rem;
+  border-radius: 5px;
+  background: #0d7be240;
+  color: #096ecc;
+}
+
+.alert-grey {
+  background: #72727240;
+  color: #555555;
+}
+
+.alert-green {
+  background: #13927240;
+  color: #117c61;
+}
+
+.alert-teal {
+  background: #0097a740;
+  color: #008492;
+}
+
+.alert-red {
+  background: #f4433640;
+  color: #e63529;
+}
+
+.alert-yellow {
+  background: #ecb43940;
+  color: #bb8a00;
+}
+
+.alert-purple {
+  background: #8742e240;
+  color: #773cc5;
+}
+
+.alert-sky {
+  background: #65a2db40;
+  color: #4a89c5;
+}
+
+.alert-black {
+  background: #3b3b3b40;
+  color: #1d1d1d;
+}
+
 * {
   font-family: 'Rubik', sans-serif;
 }

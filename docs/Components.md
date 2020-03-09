@@ -10,7 +10,7 @@ To be planned: 🗨
 [  ] Toggle button
 
 # Elements
-[⏲] Alerts
+[✅] Alerts
 [⏲] Badge
 [  ] Bredcrumb
 [✅] Card
