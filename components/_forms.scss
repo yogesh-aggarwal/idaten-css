@@ -1,0 +1,76 @@
+.form {
+  input {
+    margin: 4px 3px;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+  }
+
+  .file-select {
+    position: relative;
+    display: inline-block;
+    box-shadow: 2px 2px 5px #ccc;
+
+    span {
+      display: inline-block;
+      background: color(blue);
+      padding: 6px 1rem;
+      color: #fff;
+      border-radius: 5px;
+
+      &.blue {
+        background: color(blue);
+      }
+
+      &.grey {
+        background: color(grey);
+      }
+
+      &.green {
+        background: color(green);
+      }
+
+      &.teal {
+        background: color(teal);
+      }
+
+      &.red {
+        background: color(red);
+      }
+
+      &.yellow {
+        background: color(yellow);
+      }
+
+      &.purple {
+        background: color(purple);
+      }
+
+      &.sky {
+        background: color(sky);
+      }
+
+      &.black {
+        background: color(black);
+      }
+    }
+
+    input[type="file"] {
+      cursor: pointer;
+      all: unset;
+      opacity: 0;
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      &::-webkit-file-upload-button {
+        cursor: pointer;
+      }
+    }
+  }
+}

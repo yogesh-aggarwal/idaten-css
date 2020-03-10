@@ -304,3 +304,54 @@
   background: alertColor(black);
   color: alertColor(black-text);
 }
+
+//& Badge
+.badge, .badge-blue {
+  display: inline-block;
+  box-shadow: 0 2px 3px #ccc;
+  margin: 0 1px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: color(blue);
+  color: #fff;
+}
+
+.badge-grey {
+  @extend .badge;
+  background: color(grey);
+}
+
+.badge-green {
+  @extend .badge;
+  background: color(green);
+}
+
+.badge-teal {
+  @extend .badge;
+  background: color(teal);
+}
+
+.badge-red {
+  @extend .badge;
+  background: color(red);
+}
+
+.badge-yellow {
+  @extend .badge;
+  background: color(yellow);
+}
+
+.badge-purple {
+  @extend .badge;
+  background: color(purple);
+}
+
+.badge-sky {
+  @extend .badge;
+  background: color(sky);
+}
+
+.badge-black {
+  @extend .badge;
+  background: color(black);
+}

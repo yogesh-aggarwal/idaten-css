@@ -11,7 +11,7 @@ To be planned: 🗨
 
 # Elements
 [✅] Alerts
-[⏲] Badge
+[✅] Badge
 [  ] Bredcrumb
 [✅] Card
 [✅] Jumbotron
@@ -34,28 +34,28 @@ To be planned: 🗨
 
 
 # Sliders
-[  ] Carousel
+[🗨] Carousel
 [  ] Collapse
 
 # Forms
-[⏲] Forms
-[⏲] Input group
+[✅] Forms
+[✅] Input group
 
 # Moving components
 [  ] Modal
 [  ] List group
 [  ] Placeholder
 [  ] Popovers
-[  ] Progress
-[  ] Spinners
+[🗨] Progress
+[🗨] Spinners
 [⏲] Scrollbars
-[  ] Scrollspy
-[  ] Tables
+[🗨] Scrollspy
+[🗨] Tables
 
 # Utilities
 [  ] Border
 [✅] Colors
 [✅] Container
-[  ] Icons
+[🗨] Icons
 [  ] Media object
-[  ] Right click menu
+[🗨] Right click menu
