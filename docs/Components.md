@@ -4,58 +4,58 @@ Pending: 🤜
 To be planned: 🗨
 
 # Buttons
-[✅] Buttons
-[✅] Button group
-[  ] Radio button
-[  ] Toggle button
+* [✅] Buttons
+* [✅] Button group
+* [  ] Radio button
+* [  ] Toggle button
 
 # Elements
-[✅] Alerts
-[✅] Badge
-[  ] Bredcrumb
-[✅] Card
-[✅] Jumbotron
-[✅] Pagination
-[⏲] Dropdowns
-[  ] Tree
-[  ] Toasts
+* [✅] Alerts
+* [✅] Badge
+* [  ] Bredcrumb
+* [✅] Card
+* [✅] Jumbotron
+* [✅] Pagination
+* [⏲] Dropdowns
+* [  ] Tree
+* [  ] Toasts
 
 # UI
-[⏲] Tabs
-[  ] Navs
-[🗨] Navbar
-[✅] Chips
-[  ] Sidebar
-[  ] Dividers
-[  ] Datepicker
-[  ] Tooltips
-[  ] Message
-[✅] Seperator
+* [⏲] Tabs
+* [  ] Navs
+* [🗨] Navbar
+* [✅] Chips
+* [  ] Sidebar
+* [  ] Dividers
+* [  ] Datepicker
+* [  ] Tooltips
+* [  ] Message
+* [✅] Seperator
 
 
 # Sliders
-[🗨] Carousel
-[  ] Collapse
+* [🗨] Carousel
+* [  ] Collapse
 
 # Forms
-[✅] Forms
-[✅] Input group
+* [✅] Forms
+* [✅] Input group
 
 # Moving components
-[  ] Modal
-[  ] List group
-[  ] Placeholder
-[  ] Popovers
-[🗨] Progress
-[🗨] Spinners
-[⏲] Scrollbars
-[🗨] Scrollspy
-[🗨] Tables
+* [  ] Modal
+* [  ] List group
+* [  ] Placeholder
+* [  ] Popovers
+* [🗨] Progress
+* [🗨] Spinners
+* [⏲] Scrollbars
+* [🗨] Scrollspy
+* [🗨] Tables
 
 # Utilities
-[  ] Border
-[✅] Colors
-[✅] Container
-[🗨] Icons
-[  ] Media object
-[🗨] Right click menu
+* [  ] Border
+* [✅] Colors
+* [✅] Container
+* [🗨] Icons
+* [  ] Media object
+* [🗨] Right click menu
