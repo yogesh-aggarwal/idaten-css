@@ -1,7 +1,7 @@
-Current: ⏲
-Done: ✅
-Pending: 🤜
-To be planned: 🗨
+* Current: ⏲
+* Done: ✅
+* Pending: 🤜
+* To be planned: 🗨
 
 # Buttons
 * [✅] Buttons
